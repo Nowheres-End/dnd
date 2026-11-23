@@ -101,32 +101,32 @@ def wrap(text, font, size, width):
 
 def cover(c, code, title, art_name, field, accent):
     field, accent, cream, ink = HexColor(field), HexColor(accent), HexColor("#fbf4dc"), HexColor("#171d19")
-    # Original period-module grammar: information-heavy cream header, code flag,
-    # framed scene, descriptive copy, and a color-field publisher band.
-    c.setFillColor(cream); c.rect(0, 0, W, H, fill=1, stroke=0)
-    c.setFillColor(field); c.rect(0, H-34, W, 34, fill=1, stroke=0)
-    c.setFillColor(field); c.rect(0, H-150, 116, 116, fill=1, stroke=0)
-    c.setStrokeColor(ink); c.setLineWidth(1.2); c.rect(12, H-138, 92, 92, fill=0, stroke=1)
-    c.setFillColor(accent); c.setFont("Helvetica-Bold", 28); c.drawCentredString(58, H-83, code)
+    # Each module wears its absinthe color all the way to the trim; the framed
+    # illustration and pale ink retain the dense period-module information grammar.
+    c.setFillColor(field); c.rect(0, 0, W, H, fill=1, stroke=0)
+    c.setStrokeColor(accent); c.setLineWidth(.8); c.line(30, H-34, W-30, H-34)
+    c.setFillColor(accent); c.rect(12, H-138, 92, 92, fill=1, stroke=0)
+    c.setStrokeColor(cream); c.setLineWidth(1.2); c.rect(12, H-138, 92, 92, fill=0, stroke=1)
+    c.setFillColor(field); c.setFont("Helvetica-Bold", 28); c.drawCentredString(58, H-83, code)
     c.setFont("Helvetica-Bold", 6.2); c.drawCentredString(58, H-104, "FANTASY ADVENTURE")
     c.setFillColor(cream); c.setFont("Helvetica-Bold", 8); c.drawString(132, H-59, "NOWHERE'S END ADVENTURE MODULE")
-    c.setFillColor(ink); c.setFont("Times-Bold", 23); c.drawString(132, H-91, title.upper())
+    c.setFont("Times-Bold", 23); c.drawString(132, H-91, title.upper())
     c.setFont("Helvetica-Bold", 8); c.drawString(134, H-108, "FOR 4-6 CHARACTERS  |  " + LEVELS[code])
     c.setFillColor(HexColor("#0b1914")); c.rect(49, 328, W-98, 300, fill=1, stroke=0)
     c.drawImage(ImageReader(str(ROOT / "assets" / "illustrations" / art_name)), 56, 335, width=W-112, height=286, preserveAspectRatio=False)
-    c.setStrokeColor(field); c.setLineWidth(3); c.rect(49, 328, W-98, 300, fill=0, stroke=1)
-    c.setFillColor(ink); c.setFont("Helvetica-Bold", 8.5); c.drawString(54, 303, "AN ORIGINAL FANTASY ADVENTURE")
+    c.setStrokeColor(accent); c.setLineWidth(3); c.rect(49, 328, W-98, 300, fill=0, stroke=1)
+    c.setFillColor(cream); c.setFont("Helvetica-Bold", 8.5); c.drawString(54, 303, "AN ORIGINAL FANTASY ADVENTURE")
     c.setFont("Helvetica", 8.2); y = 289
     for line in wrap(PLAY_AIDS[code]["blurb"], "Helvetica", 8.2, W-108):
         c.drawString(54, y, line); y -= 11
-    c.setStrokeColor(HexColor("#92866a")); c.setLineWidth(.6); c.line(54, 228, W-54, 228)
-    c.setFillColor(ink); c.setFont("Helvetica-Bold", 7.2); c.drawString(54, 211, "IN THIS MODULE:")
+    c.setStrokeColor(accent); c.setLineWidth(.6); c.line(54, 228, W-54, 228)
+    c.setFillColor(cream); c.setFont("Helvetica-Bold", 7.2); c.drawString(54, 211, "IN THIS MODULE:")
     c.setFont("Helvetica", 7.2)
     contents = {"N1": "A timed inn mystery, a root-bound cellar, Vermifuge, and moon-wormwood.", "N2": "A vanished village, three impossible crossings, a ferryman, and glass fennel.", "N3": "A thorned feast, masks of desire, an accounting, and rose anise.", "N4": "A road-crawl, the Dream-Wyrm, four protections, and wayfarer's balm."}[code]
     cy = 198
     for line in wrap(contents, "Helvetica", 7.2, W-108):
         c.drawString(54, cy, line); cy -= 9
-    c.setFillColor(field); c.rect(0, 0, W, 78, fill=1, stroke=0)
+    c.setFillColor(HexColor("#0b1914")); c.rect(0, 0, W, 78, fill=1, stroke=0)
     c.setStrokeColor(accent); c.setLineWidth(1); c.line(30, 64, W-30, 64)
     c.setFillColor(cream); c.setFont("Helvetica-Bold", 9); c.drawCentredString(W/2, 44, "THE FOUR MUSES OF NOWHERE'S END")
     c.setFont("Helvetica", 7); c.drawCentredString(W/2, 27, "FIND THE HERB  •  FACE THE PRICE  •  CHOOSE THE ROAD")
