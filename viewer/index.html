@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nowhere's End - page viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a href="../output/pdf/nowheres-end-print-edition.pdf">Download print PDF</a><span id="count"></span></header>
+  <main aria-label="Nowhere's End page viewer">
+    <button id="previous" aria-label="Previous page">‹</button>
+    <section id="book" class="book" aria-live="polite"><img id="page" alt="Book page"></section>
+    <button id="next" aria-label="Next page">›</button>
+  </main>
+  <footer><span>Use the arrows or left/right keys to turn pages.</span></footer>
+  <script src="viewer.js"></script>
+</body>
+</html>

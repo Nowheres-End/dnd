@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440">
+  <rect width="720" height="440" fill="#eaf1ef"/><path d="M30 365 C150 300 165 165 300 205 S470 340 680 66" fill="none" stroke="#1b638d" stroke-width="24" opacity=".82"/>
+  <path d="M30 365 C150 300 165 165 300 205 S470 340 680 66" fill="none" stroke="#c7e7ee" stroke-width="3" stroke-dasharray="8 7"/>
+  <g fill="#174a5f" stroke="#f7f2dc" stroke-width="4"><circle cx="66" cy="350" r="31"/><circle cx="188" cy="245" r="31"/><circle cx="320" cy="208" r="31"/><circle cx="476" cy="294" r="31"/><circle cx="645" cy="94" r="31"/></g>
+  <g font-family="Helvetica,Arial" text-anchor="middle" fill="#143d31"><g font-size="16" font-weight="bold"><text x="66" y="356">1</text><text x="188" y="251">2</text><text x="320" y="214">3</text><text x="476" y="300">4</text><text x="645" y="100">5</text></g><g font-size="15" font-weight="bold"><text x="66" y="402">Bellwether</text><text x="188" y="182">Dry Ford</text><text x="320" y="163">Reed Gate</text><text x="476" y="365">Silver Ferry</text><text x="645" y="54">Name-House</text></g></g>
+  <path d="M496 272 l48 -43" stroke="#1b638d" stroke-width="5"/><path d="M540 229 l-4 18 17 2" fill="none" stroke="#1b638d" stroke-width="4"/><text x="576" y="225" font-family="Helvetica" font-size="14" fill="#143d31">6. Glass fennel</text>
+  <text x="34" y="32" font-family="Georgia,serif" font-size="24" fill="#143d31">THE GLASS ROAD</text><text x="34" y="55" font-family="Helvetica" font-size="12" fill="#143d31">Referee route map - each blue bend is one journey turn</text>
+</svg>

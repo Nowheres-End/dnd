@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850">
+  <rect width="1100" height="850" fill="#f4eddb"/>
+  <g stroke="#c9c1ad" stroke-width=".7"><path d="M70 105V730M94 105V730M118 105V730M142 105V730M166 105V730M190 105V730M214 105V730M238 105V730M262 105V730M286 105V730M310 105V730M334 105V730M358 105V730M382 105V730M406 105V730M430 105V730M454 105V730M478 105V730M502 105V730M526 105V730M550 105V730M574 105V730M598 105V730M622 105V730M646 105V730M670 105V730M694 105V730M718 105V730M742 105V730M766 105V730M790 105V730M814 105V730M838 105V730M862 105V730M886 105V730M910 105V730M934 105V730M958 105V730M982 105V730M1006 105V730M1030 105V730"/><path d="M70 106H1030M70 130H1030M70 154H1030M70 178H1030M70 202H1030M70 226H1030M70 250H1030M70 274H1030M70 298H1030M70 322H1030M70 346H1030M70 370H1030M70 394H1030M70 418H1030M70 442H1030M70 466H1030M70 490H1030M70 514H1030M70 538H1030M70 562H1030M70 586H1030M70 610H1030M70 634H1030M70 658H1030M70 682H1030M70 706H1030M70 730H1030"/></g>
+  <g fill="#f4eddb" stroke="#1d2c21" stroke-width="7" stroke-linejoin="round">
+    <path d="M118 178H310V322H118Z"/><path d="M310 226H430V322H310Z"/>
+    <path d="M430 178H678V322H430Z"/><path d="M678 178H910V322H678Z"/>
+    <path d="M166 466H406V682H166Z"/><path d="M406 538H574V682H406Z"/><path d="M574 442H934V682H574Z"/>
+    <path d="M310 322V394H354V466"/><path d="M678 322V394H754V442"/>
+  </g>
+  <g stroke="#1d2c21" stroke-width="5" fill="none"><path d="M310 268h-24m24 0q-24 24 0 48"/><path d="M430 268h24m-24 0q24 24 0 48"/><path d="M678 268h24m-24 0q24 24 0 48"/><path d="M574 586h24m-24 0q24 24 0 48"/></g>
+  <g fill="none" stroke="#6b5630" stroke-width="5" stroke-dasharray="12 8"><path d="M430 258C352 355 349 401 278 466"/><path d="M678 258C777 337 780 372 754 442"/></g>
+  <g fill="#345b43"><circle cx="344" cy="410" r="9"/><circle cx="754" cy="416" r="9"/></g>
+  <g fill="#b9c8c4" stroke="#1d2c21" stroke-width="3"><ellipse cx="490" cy="611" rx="41" ry="28"/></g>
+  <g stroke="#1d2c21" stroke-width="3" fill="none"><path d="M225 520h45m-45 30h45m-45 30h45m45-60h45m-45 30h45m-45 30h45"/><path d="M722 530h64m-32-32v64"/><circle cx="754" cy="530" r="20"/></g>
+  <g font-family="Georgia,serif" fill="#1d2c21" text-anchor="middle"><text x="550" y="57" font-size="34" font-weight="bold">NOWHERE'S END: REFEREE CELLAR</text><text x="550" y="82" font-size="15" letter-spacing="2">ONE SQUARE = 5 FEET • DOTTED = SECRET • GREEN = SEALED STAIR</text>
+    <text x="214" y="246" font-size="34" font-weight="bold">1</text><text x="214" y="284" font-size="14">COMMON ROOM</text><text x="370" y="270" font-size="34" font-weight="bold">2</text><text x="370" y="299" font-size="13">BAR &amp; HATCH</text><text x="554" y="246" font-size="34" font-weight="bold">3</text><text x="554" y="284" font-size="14">GALLERY</text><text x="794" y="246" font-size="34" font-weight="bold">4</text><text x="794" y="284" font-size="14">KITCHEN</text>
+    <text x="286" y="621" font-size="34" font-weight="bold">5</text><text x="286" y="656" font-size="14">CASK VAULT</text><text x="490" y="580" font-size="34" font-weight="bold">6</text><text x="490" y="655" font-size="14">WELL</text><text x="754" y="594" font-size="34" font-weight="bold">7</text><text x="754" y="636" font-size="14">ROOT-CHAMBER</text></g>
+  <g font-family="Georgia,serif" fill="#1d2c21" font-size="14"><text x="86" y="765">Doors swing toward their hinge. Casks are difficult terrain; the well is 20 feet deep; the iron chair provides cover.</text><text x="86" y="793">Secret stair: bar to cask vault. Dry passage: gallery to vault. Secret service stair: kitchen to root-chamber.</text></g>
+</svg>
